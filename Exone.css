@@ -1,0 +1,51 @@
+#Konami {
+    float: left;
+    color: red;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Trirong');
+* {
+    font-family: "Trirong", serif;
+}
+
+#languageSelect {
+    float: right;
+}
+
+#Header {
+    width: 500px;
+    height: 100px;
+    background-color: aqua;
+}
+
+.navbar {
+    padding-top: 30px;
+    background-color: DodgerBlue;
+}
+
+#title {
+    padding-top: 100px;
+    text-align: center;
+}
+
+.navbar a {
+    margin-top: 30px;
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: rgb(255, 30, 184);
+}
+
+#navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+#navbar a.active {
+    background-color: #04AA6D;
+    color: white;
+}
